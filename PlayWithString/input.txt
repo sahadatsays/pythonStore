@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<conio.h>
+
+int main(){
+int a,b,c,x,y;
+a = 2;
+printf("%d", ++a);
+
+}

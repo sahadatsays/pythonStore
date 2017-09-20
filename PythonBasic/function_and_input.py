@@ -8,10 +8,14 @@ def addNumber(fnum, lnum):
 # print("Enter Your Second Number : ")
 # secondNumber = sys.stdin.readline()
 
-x = int(input("Enter F number : "))
-y = int(input("Enter S Number : "))
+try:
+    x = int(input("Enter F number : "))
+    y = int(input("Enter S Number : "))
+    print("Your Output is : ", addNumber(x, y))
+except:
+    print("Input not valid! ")
 
-print(addNumber(x,y))
+
 
 # print("Enter Your name : ")
 # name = sys.stdin.readline()
